@@ -7,8 +7,8 @@ from django.db import migrations
 from character_builder.models import ClassStartingStats
 
 
-def populate():
-    
+def populate(apps, schema_editor):
+    yeet = ClassStartingStats.objects.get(name="Prophet")
     # Say you make a mistake and need to change a row, follow format below
     #var = ClassStartingStats.objects.get(name='mistaken_row')
     #var.base_lvl = 24
