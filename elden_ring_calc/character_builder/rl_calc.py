@@ -1,3 +1,4 @@
+from models import ClassStartingStats
 
 
 player_dict = {
