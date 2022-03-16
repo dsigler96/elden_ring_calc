@@ -145,7 +145,8 @@ def populate():
 
 
 
-    # code below used for populating base stat list
+    # code below used for populating base stats in database
+
     # for item in lyst:
     #     entry = ClassStartingStats(name = "")
     #     for key, value in item.items():

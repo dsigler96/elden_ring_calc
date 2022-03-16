@@ -1,13 +1,13 @@
 
 player_dict = {
-    "level" : 0,
+    "lv" : 0,
     "vig" : 0,
-    "mind" : 0,
+    "mnd" : 0,
     "end" : 0,
     "str" : 0,
     "dex" : 0,
     "int" : 0,
-    "faith" : 0,
+    "fai" : 0,
     "arc" : 0
 }
 
