@@ -1,7 +1,3 @@
-from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QApplication, QMainWindow
-import sys
-
 hero_dict = {
     "level" : 7,
     "vig" : 14,
@@ -233,30 +229,10 @@ def levels_calc(dict, player):
     dict["Samurai"] = sum(player.values()) - sum(samurai_dict.values()) + samurai_dict["level"]
     return dict
 
-def clicked():
-    print("You clicked it!")
-
-def window():
-    app = QApplication(sys.argv)
-    win = QMainWindow()
-    win.setGeometry(475, 250, 960, 540)
-    win.setWindowTitle("Elden Ring PvP Optimizer")
-
-    label = QtWidgets.QLabel(win)
-    label.setText("Stats")
-    label.move(20, 20)
-
-    b1 = QtWidgets.QPushButton(win)
-    b1.setText("Don't click me")
-    b1.clicked.connect(clicked)
-
-    win.show()
-    sys.exit(app.exec_())
 
 if __name__ == '__main__':
     #player_dict = get_stats(player_dict)
     #levels_dict = levels_calc(levels_dict, player_dict)
     #for key, value in sorted(levels_dict.items(), key=lambda x: x[1]):
         #print(value, ": ", key)
-    window()
-    window.title("Elden Ring PvP Optimizer")
+    

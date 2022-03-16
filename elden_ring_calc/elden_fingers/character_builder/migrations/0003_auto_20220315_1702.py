@@ -9,7 +9,7 @@ from character_builder.models import ClassStartingStats
 
 
 bandit_dict = {
-    "base_lvl" : 5,
+    "base_lv" : 5,
     "base_vig" : 10,
     "base_mnd" : 11,
     "base_end" : 10,
@@ -21,7 +21,7 @@ bandit_dict = {
 }
 
 astrologer_dict = {
-    "base_lvl" : 6,
+    "base_lv" : 6,
     "base_vig" : 9,
     "base_mnd" : 15,
     "base_end" : 9,
@@ -33,7 +33,7 @@ astrologer_dict = {
 }
 
 warrior_dict = {
-    "base_lvl" : 8,
+    "base_lv" : 8,
     "base_vig" : 11,
     "base_mnd" : 12,
     "base_end" : 11,
@@ -45,7 +45,7 @@ warrior_dict = {
 }
 
 prisoner_dict = {
-    "base_lvl" : 9,
+    "base_lv" : 9,
     "base_vig" : 11,
     "base_mnd" : 12,
     "base_end" : 11,
@@ -57,7 +57,7 @@ prisoner_dict = {
 }
 
 confessor_dict = {
-    "base_lvl" : 10,
+    "base_lv" : 10,
     "base_vig" : 10,
     "base_mnd" : 13,
     "base_end" : 10,
@@ -69,7 +69,7 @@ confessor_dict = {
 }
 
 wretch_dict = {
-    "base_lvl" : 1,
+    "base_lv" : 1,
     "base_vig" : 10,
     "base_mnd" : 10,
     "base_end" : 10,
@@ -81,7 +81,7 @@ wretch_dict = {
 }
 
 vagabond_dict = {
-    "base_lvl" : 9,
+    "base_lv" : 9,
     "base_vig" : 15,
     "base_mnd" : 10,
     "base_end" : 11,
@@ -93,7 +93,7 @@ vagabond_dict = {
 }
 
 prophet_dict = {
-    "base_lvl" : 7,
+    "base_lv" : 7,
     "base_vig" : 10,
     "base_mnd" : 14,
     "base_end" : 8,
@@ -105,7 +105,7 @@ prophet_dict = {
 }
 
 samurai_dict = {
-    "base_lvl" : 9,
+    "base_lv" : 9,
     "base_vig" : 12,
     "base_mnd" : 11,
     "base_end" : 13,
