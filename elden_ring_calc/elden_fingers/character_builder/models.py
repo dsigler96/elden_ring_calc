@@ -3,7 +3,16 @@ from django.db import models
 class ClassStartingStats(models.Model):
     name = models.CharField(max_length=255)
     created_on = models.DateTimeField(auto_now_add=True)
-    base_lv = models.IntegerField()
+    base_lvl = models.IntegerField()
+    base_vig = models.IntegerField()
+    base_mnd = models.IntegerField()
+    base_end = models.IntegerField()
+    base_str = models.IntegerField()
+    base_dex = models.IntegerField()
+    base_int = models.IntegerField()
+    base_fai = models.IntegerField()
+    base_arc = models.IntegerField()
+    
     #Copy line above for all stats
 
 
