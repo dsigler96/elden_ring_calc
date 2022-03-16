@@ -1,4 +1,5 @@
 
+
 player_dict = {
     "lv" : 0,
     "vig" : 0,

@@ -5,8 +5,6 @@ os.environ["DJANGO_SETTINGS_MODULE"] = "elden_fingers.settings"
 django.setup()
 from character_builder.models import ClassStartingStats
 
-#sys.path.append("..")
-
 hero_dict = {
     "name" : "Hero",
     "base_lv" : 7,
